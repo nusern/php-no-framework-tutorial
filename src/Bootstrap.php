@@ -21,9 +21,6 @@ if ($environment !== 'production') {
 }
 $whoops->register();
 
-/*
- *
- */
 $injector = include('Dependencies.php');
 
 $request = $injector->make('Http\HttpRequest');
@@ -63,4 +60,3 @@ foreach ($response->getHeaders() as $header) {
 }
 
 echo $response->getContent();
-
