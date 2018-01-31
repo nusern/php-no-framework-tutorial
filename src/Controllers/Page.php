@@ -3,7 +3,6 @@
 namespace Example\Controllers;
 
 use Http\Response;
-//use Example\Template\Renderer;
 use Example\Template\FrontendRenderer;
 use Example\Page\PageReader;
 use Example\Page\InvalidPageException;
