@@ -4,7 +4,6 @@ namespace Example\Controllers;
 
 use Http\Request;
 use Http\Response;
-//use Example\Template\Renderer;
 use Example\Template\FrontendRenderer;
 
 class Homepage
