@@ -1,0 +1,26 @@
+{
+    "name": "No Framework Tutorial",
+    "description": "https://github.com/PatrickLouys/no-framework-tutorial",
+    "keywords": ["php", "no-framework", "tutorial"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "usern Name",
+            "email": "n@usern.xyz"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1",
+        "patricklouys/http": "~1.4",
+        "nikic/fast-route": "~1.2.0",
+        "rdlowrey/auryn": "~1.4.2",
+        "mustache/mustache": "^2.12",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
